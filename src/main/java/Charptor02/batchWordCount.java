@@ -1,3 +1,5 @@
+package Charptor02;
+
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.AggregateOperator;
@@ -12,10 +14,12 @@ public class batchWordCount {
     /*
         第一个Flink代码：批处理 wordCount
         主要注意代码的执行环境和数据读取
+
+        //  但是在最新版本已经不建议使用DateSet
      */
     public static void main(String[] args) throws Exception {
 
-        //  创建环境
+        //  创建环境：此处创建的是批处理环境
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         //  读取文件
@@ -27,7 +31,7 @@ public class batchWordCount {
             for (String word : words) {
                 out.collect(Tuple2.of(word, 1L));
             }
-        }).returns(Types.TUPLE(Types.STRING, Types.LONG));//  需要显式声明Tuple的类型
+        }).returns(Types.TUPLE(Types.STRING, Types.LONG));//  因为范式擦除 故需要显式声明Tuple的类型
 
         UnsortedGrouping<Tuple2<String, Long>> wordAndOneGroup = wordAndOneTuple.groupBy(0);
 
