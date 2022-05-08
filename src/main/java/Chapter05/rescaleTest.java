@@ -1,4 +1,4 @@
-package Charptor05;
+package Chapter05;
 
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.source.RichParallelSourceFunction;

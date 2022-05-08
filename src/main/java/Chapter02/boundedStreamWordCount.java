@@ -1,4 +1,4 @@
-package Charptor02;
+package Chapter02;
 
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.tuple.Tuple2;

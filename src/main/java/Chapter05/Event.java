@@ -1,4 +1,4 @@
-package Charptor05;
+package Chapter05;
 
 import java.sql.Timestamp;
 

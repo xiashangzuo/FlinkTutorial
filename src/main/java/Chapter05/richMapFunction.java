@@ -1,4 +1,4 @@
-package Charptor05;
+package Chapter05;
 
 import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.configuration.Configuration;

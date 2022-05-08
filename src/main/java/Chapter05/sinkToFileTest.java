@@ -1,8 +1,7 @@
-package Charptor05;
+package Chapter05;
 
 import org.apache.flink.api.common.serialization.SimpleStringEncoder;
 import org.apache.flink.core.fs.Path;
-import org.apache.flink.shaded.netty4.io.netty.handler.codec.http2.Http2Exception;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.sink.filesystem.StreamingFileSink;

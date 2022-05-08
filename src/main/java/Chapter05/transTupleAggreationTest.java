@@ -1,4 +1,4 @@
-package Charptor05;
+package Chapter05;
 
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;

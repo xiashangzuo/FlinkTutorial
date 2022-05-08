@@ -1,9 +1,8 @@
-package Charptor05;
+package Chapter05;
 
 import org.apache.flink.api.common.functions.Partitioner;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.table.expressions.In;
 
 public class customPartitionTest {
     public static void main(String[] args) throws Exception {

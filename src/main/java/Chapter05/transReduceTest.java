@@ -1,4 +1,4 @@
-package Charptor05;
+package Chapter05;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
