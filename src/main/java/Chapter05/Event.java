@@ -18,7 +18,7 @@ public class Event {
 
     @Override
     public String toString() {
-        return "Charptor05.Event{" +
+        return "Chapter05.Event{" +
                 "user='" + user + '\'' +
                 ", url='" + url + '\'' +
                 ", timestamp=" + new Timestamp(timestamp) +
