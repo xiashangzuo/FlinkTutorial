@@ -1,12 +1,5 @@
 package Chapter06;
 
-/**
- * Copyright (c) 2020-2030 尚硅谷 All Rights Reserved
- * <p>
- * Project:  FlinkTutorial
- * <p>
- * Created by  wushengran
- */
 
 import Chapter05.Event;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
